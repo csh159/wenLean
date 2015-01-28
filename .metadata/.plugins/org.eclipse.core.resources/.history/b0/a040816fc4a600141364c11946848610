@@ -1,0 +1,16 @@
+package com.csh.spring.learn;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloTest {
+
+
+	@Test
+	public void testHelloWorld(){
+		ApplicationContext app=new ClassPathXmlApplicationContext("helloworld.xml");
+	}
+}

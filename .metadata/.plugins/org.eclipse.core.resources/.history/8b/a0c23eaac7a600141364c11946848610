@@ -1,0 +1,17 @@
+package com.csh.spring.learn;
+import org.apache.log4j.PropertyConfigurator;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloTest {
+
+
+	@Test
+	public void testHelloWorld(){
+		PropertyConfigurator.configure("\log4j");
+		ApplicationContext app=new ClassPathXmlApplicationContext("spring/helloworld.xml");
+		HelloApi api=app.getBean("hello", HelloImpl.class);
+		api.sayHello();
+	}
+}

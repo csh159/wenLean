@@ -1,0 +1,23 @@
+package com.csh.spring.learn;
+
+public class HelloImpl2 implements HelloApi {
+
+	private String mName;
+
+	public HelloImpl2(String name) {
+		mName = name;
+	}
+
+	@Override
+	public void sayHello() {
+		System.out.println(mName);
+
+	}
+
+	@Override
+	public void sayName() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

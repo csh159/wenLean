@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.apache.log4j.PropertyConfigurator"/>
+<fullyQualifiedTypeName name="com.csh.spring.learn.HelloImpl"/>
+<fullyQualifiedTypeName name="com.csh.spring.learn.HelloApi"/>
+<fullyQualifiedTypeName name="com.csh.spring.learn.HelloImpl2"/>
+</qualifiedTypeNameHistroy>
